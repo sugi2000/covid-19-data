@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: gautemo/fetch-api-data-action@1.0.2
       - name: fetch data
-        uses: ./
+        # uses: ./
         with:
           url: 'https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv'
           file: 'data/tokyo/patients.csv'
