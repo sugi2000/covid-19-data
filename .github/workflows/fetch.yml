@@ -28,3 +28,6 @@ jobs:
         with:
           url: 'https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv'
           file: 'data/tokyo/patients.csv'
+       
+      - name: list files
+        run: ls
