@@ -22,8 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: gautemo/fetch-api-data-action@1.0.2
       - name: fetch data
+        uses: gautemo/fetch-api-data-action@1.0.2
         # uses: ./
         with:
           url: 'https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv'
