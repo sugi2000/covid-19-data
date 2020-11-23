@@ -26,7 +26,7 @@ jobs:
         uses: gautemo/fetch-api-data-action@1.0.2
         # uses: ./
         with:
-          url: 'https://sugi2000cors.herokuapp.com/https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv'
+          url: 'https://raw.githubusercontent.com/tokyo-metropolitan-gov/covid19/development/static/data/130001_tokyo_covid19_patients.csv'
           file: 'data/tokyo/patients.csv'
        
       - name: list files
